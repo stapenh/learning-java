@@ -5,8 +5,7 @@ public class Players{
         System.out.print("main zaebal");
     }
     public  void hand(){
-        int b=a.length;
-         ruka=a[(int)(Math.random()*b)];
+         ruka=a[(int)(Math.random()*a.length)];
         System.out.println(ruka);
 
 
